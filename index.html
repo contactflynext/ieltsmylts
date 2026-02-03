@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>IELTS Reading Part 1 | FlyNext International</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loginPage" class="hero">
+  <img src="banner.jpg">
+  <div class="login-box">
+    <h2>IELTS Reading Part 1 Hack</h2>
+    <p>Become the strongest</p>
+    <input id="name" placeholder="Enter your name">
+    <button onclick="startTest()">Start Test</button>
+  </div>
+</div>
+
+<div id="examPage" class="hidden">
+  <div class="topbar">
+    <span id="student"></span>
+    <span id="timer">15:00</span>
+  </div>
+
+  <div class="exam">
+    <div class="passage">
+      <h3>The Thylacine</h3>
+      <p>The extinct thylacine, also known as the Tasmanian tiger, was a marsupial...</p>
+    </div>
+
+    <div class="questions">
+      <h3>Questions</h3>
+      <input id="q1" placeholder="1. carnivorous">
+      <input id="q2" placeholder="2. scent">
+      <input id="q3" placeholder="3. pouch">
+      <input id="q4" placeholder="4. fossil">
+      <input id="q5" placeholder="5. habitat">
+
+      <select id="q6"><option>True</option><option>False</option><option>Not given</option></select>
+      <select id="q7"><option>True</option><option>False</option><option>Not given</option></select>
+      <select id="q8"><option>True</option><option>False</option><option>Not given</option></select>
+      <select id="q9"><option>True</option><option>False</option><option>Not given</option></select>
+      <select id="q10"><option>True</option><option>False</option><option>Not given</option></select>
+      <select id="q11"><option>True</option><option>False</option><option>Not given</option></select>
+      <select id="q12"><option>True</option><option>False</option><option>Not given</option></select>
+      <select id="q13"><option>True</option><option>False</option><option>Not given</option></select>
+
+      <button onclick="submitTest()">Submit</button>
+    </div>
+  </div>
+</div>
+
+<div id="resultPage" class="hidden card"></div>
+
+<div id="scoreboard" class="card hidden">
+  <h2>Scoreboard</h2>
+  <table id="board"></table>
+</div>
+
+<footer>© FlyNext International 2026 | Developed by SHAYEKH</footer>
+<script src="script.js"></script>
+</body>
+</html>

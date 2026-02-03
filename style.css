@@ -1,0 +1,17 @@
+
+body{margin:0;font-family:Segoe UI;background:#0f172a;color:#e5e7eb}
+.hero{position:relative;height:100vh}
+.hero img{width:100%;height:100%;object-fit:cover;filter:brightness(.5)}
+.login-box{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+background:#020617;padding:30px;border-radius:16px;text-align:center;width:340px}
+.login-box input{width:100%;padding:10px;margin:10px 0;border-radius:8px;border:none}
+button{background:#38bdf8;border:none;padding:10px 20px;border-radius:8px;font-weight:bold}
+.hidden{display:none}
+.topbar{display:flex;justify-content:space-between;padding:15px;background:#020617}
+.exam{display:grid;grid-template-columns:1fr 1fr;gap:20px;padding:20px}
+.passage,.questions{background:#020617;padding:20px;border-radius:12px;height:60vh;overflow:auto}
+.questions input,select{width:100%;margin:5px 0;padding:6px}
+.card{background:#020617;margin:20px;padding:20px;border-radius:14px}
+table{width:100%;border-collapse:collapse}
+td,th{border-bottom:1px solid #334155;padding:6px;text-align:left}
+footer{text-align:center;padding:15px;color:#94a3b8}
